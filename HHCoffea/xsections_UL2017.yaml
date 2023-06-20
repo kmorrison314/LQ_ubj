@@ -1,0 +1,200 @@
+WW_TuneCP5_13TeV-pythia8:
+    br: 1
+    kr: 1
+    xsec: 75.83
+WZ_TuneCP5_13TeV-pythia8:
+    br: 1
+    kr: 1
+    xsec: 27.56
+ZZ_TuneCP5_13TeV-pythia8:
+    br: 1
+    kr: 1
+    xsec: 12.14
+ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8:
+    br: 1
+    kr: 1
+    xsec: 80.95
+ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8:
+    br: 1
+    kr: 1
+    xsec: 136.02
+ST_tW_top_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8:
+    br: 1
+    kr: 1
+    xsec: 34.91
+ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8:
+    br: 1
+    kr: 1
+    xsec: 34.97
+TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8:
+    br: 1
+    kr: 1
+    xsec: 88.3419
+TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8:
+    br: 1
+    kr: 1
+    xsec: 365.34
+TTToHadronic_TuneCP5_13TeV-powheg-pythia8:
+    br: 1
+    kr: 1
+    xsec: 377.96
+DYJetsToLL_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8:
+    br: 1
+    kr: 1
+    xsec: 5333
+DYJetsToLL_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8:
+    br: 1
+    kr: 1
+    xsec: 967.7
+DYJetsToLL_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8:
+    br: 1
+    kr: 1
+    xsec: 362.2
+WJetsToLNu_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8:
+    br: 1
+    kr: 1
+    xsec: 54487.2
+WJetsToLNu_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8:
+    br: 1
+    kr: 1
+    xsec: 9104.82
+WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8:
+    br: 1
+    kr: 1
+    xsec: 3376.8
+DYJetsToLL_M-10to50_TuneCP5_13TeV-madgraphMLM-pythia8:
+    br: 1
+    kr: 1
+    xsec: 15810
+LQToBMu_M-300_single_coupling0p1_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.02076
+LQToBMu_M-300_single_coupling0p3_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1 
+    xsec: 0.1869
+LQToBMu_M-300_single_coupling0p5_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1 
+    xsec: 0.5191
+LQToBMu_M-300_single_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1 
+    xsec: 2.08
+UL17_LQToBMu_M-500_single_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.176
+UL17_LQToBMu_M-500_single_coupling0p1_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.001751
+UL17_LQToBMu_M-500_single_coupling0p3_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.01587
+UL17_LQToBMu_M-500_single_coupling0p5_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.04408
+UL17_LQToBMu_M-1000_single_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.00353
+UL17_LQToBMu_M-1000_single_coupling0p1_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.00003528
+UL17_LQToBMu_M-1000_single_coupling0p3_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.000316
+UL17_LQToBMu_M-1000_single_coupling0p5_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.0008819
+UL17_LQToBMu_M-400_single_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 10000 #0.534
+UL17_LQToBMu_M-600_single_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.0674
+UL17_LQToBMu_M-700_single_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.0289
+UL17_LQToBMu_M-800_single_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.0134
+UL17_LQToBMu_M-900_single_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.00664
+UL17_LQToBMu_M-1100_single_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.00192
+UL17_LQToBMu_M-1200_single_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.00108
+LQToBMu_M-500_single_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.176
+LQToBMu_M-500_single_coupling0p1_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.001751
+LQToBMu_M-500_single_coupling0p3_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.01587
+LQToBMu_M-500_single_coupling0p5_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.04408
+LQToBMu_M-600_single_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.0674
+LQToBMu_M-1000_single_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.00353
+LQToBMu_M-1000_single_coupling0p1_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.00003528
+LQToBMu_M-1000_single_coupling0p3_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.000316
+LQToBMu_M-1000_single_coupling0p5_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.0008819
+LQToBMu_M-400_single_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.534
+LQToBMu_M-600_single_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.0674
+LQToBMu_M-700_single_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.0289
+LQToBMu_M-800_single_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.0134
+LQToBMu_M-900_single_TuneCP2_13TeV-madgraph-pythia8:
+    br: 1
+    kr: 1
+    xsec: 0.00664
