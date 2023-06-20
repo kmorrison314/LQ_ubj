@@ -7,7 +7,7 @@ Here are the directions to create histograms using Ultra Legacy MC. Histograms a
 ```bash
 mkdir LQ
 cd LQ 
-git clone git@github.com:ari-quarky/HHCoffea.git
+git clone git@github.com:<DAVID'S GitHub ADDRESS>
 cd HHCoffea/
 mkdir -p Plots/Muon/2017
 singularity shell -B ${PWD} -B /afs -B /eos /cvmfs/unpacked.cern.ch/registry.hub.docker.com/coffeateam/coffea-dask:latest
@@ -19,14 +19,14 @@ cd CMSSW_10_6_4/src
 cmsenv
 mkdir LQ
 cd LQ 
-git clone git@github.com:ari-quarky/HHCoffea.git
+git clone git@github.com:<DAVID'S GitHub ADDRESS>
 cd HHCoffea/
 mkdir -p Plots/Muon/2017
 singularity shell -B ${PWD} -B /afs -B /eos /cvmfs/unpacked.cern.ch/registry.hub.docker.com/coffeateam/coffea-dask:latest
 ```
 
 ## Make/Edit Histograms and Plots
-If you want to add different types of histograms, adjust the selections, or adjust the weight/scale factors the exception being the Btag scaling factor, go into HHCoffea/python/LQ_Producer.py and make your edits. What reader.py does is make and get the histograms out of the NTuples and stores them for our next step. Make sure you update xsections_UL2017.yaml and UL2017_sample_reference.json when you add new NTuples into your list. The NTuples for me are stored under: /eos/user/a/argonzal/LQ_rootFiles/2017/
+If you want to add different types of histograms, adjust the selections, or adjust the weight/scale factors the exception being the Btag scaling factor, go into HHCoffea/python/LQ_Producer.py and make your edits. What reader.py does is make and get the histograms out of the NTuples and stores them for our next step. You will need to have the NTuples stored in your /eos directory which you can get from other members in Prof. Barberis' group. Once you have added the NTuples to your directory, you must change line 6 in reader.py to point to that directory. The NTuples for me are stored under: /eos/user/k/kamorris/LQ/2017_NTuples/2017/. Lastly, make sure you update xsections_UL2017.yaml and UL2017_sample_reference.json when you add new NTuples into your list.
 ```bash
 python3 reader.py
 ```
