@@ -111,7 +111,7 @@ class LQ_NTuple(WSProducer):
 #            'target': 'PV_npvsGood', # name of variables from tree
 #            'name'  : 'Nvertex',  # name to write to histogram
 #            'region': ['signal'],
-#            'axis': {'label': 'Nvertex', 'n_or_arr': 70, 'lo':0, 'hi': 70}
+#            'axis': {'label': 'Nvertex', 'n_or_arr': 70, 'lo':0, 'hi': 70}   #Not currently working
 #        },
         'Z_cand_mass': {
             'target': 'Z_mass',
@@ -574,6 +574,8 @@ class LQ_NTuple(WSProducer):
                 "event.Z_mass > 100",
                 "event.met_pt > 100",
             ],
+# Old pre-selection regions
+#
 #            "signal" : [
 #                "event.lep_category    == self.channel",
 #                "event.event_category    == 1", #was 2
